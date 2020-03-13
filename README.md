@@ -1,0 +1,2 @@
+# wallet.ionic
+
