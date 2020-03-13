@@ -1,0 +1,26 @@
+page-profile{
+    ion-card{
+        border-radius: 5px !important;
+        margin-left: 50px !important;
+        width:calc(100% - 70px) !important;
+        ion-card-content{
+            padding-left: 55px !important;
+            padding-top: 20px !important;
+            span{
+                color: #a9a9a9;
+                display: block;
+                margin-top: 10px;
+                ion-icon{
+                    margin-right: 5px;
+                }
+            }
+        }
+        img.img{
+            position: absolute;
+            width: 70px;
+            border-radius: 50%;
+            margin-left: -35px;
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+page-terms{
+    .availability-bg{
+        background: url(../assets/img/homebg.png);
+        background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    img{
+        width: 30%  !important;
+        margin: 9% auto !important;
+    }
+    ion-card-content{
+        padding: 20px !important;
+    }
+    ion-card{
+        border-radius: 5px !important;
+        ion-col{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            display: block !important;
+        }
+    }
+    .button-inner{
+        line-height: 3rem;
+    }
+    .bold{
+        font-weight: bold !important;
+    }
+    .list{
+        margin-bottom: 5px !important;
+        span{
+            font-weight: 100 !important;
+            float: right !important;
+            color: #666 !important;
+        }
+        &.text-red{
+            font-size: 1.3rem;
+            margin: 20px 0;
+            span{
+                color: #666 !important;
+                font-weight: 600 !important;
+                float: none !important;
+            }
+        }
+    }
+}

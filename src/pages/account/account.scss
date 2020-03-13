@@ -1,0 +1,47 @@
+page-account{
+    .contact-bg{
+        background: url(../assets/img/homebg.png);
+        background-size: cover;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        .pad-0{
+            padding: 0 !important;
+        }
+        ion-list{
+            margin-bottom: 3.5rem !important;
+        }
+        ion-item{
+            border-bottom: 1px solid #ddd  !important;
+        }
+    }
+    img{
+        width: 28%  !important;
+        margin: 9% auto !important;
+    }
+    ion-card-content{
+        padding: 10px !important;
+    }
+    ion-card{
+        border-radius: 5px !important;
+    }
+    .button-inner{
+        line-height: 3rem;
+    }
+    .bold{
+        font-weight: bold !important;
+        &.big-font{
+            font-size: 1.5rem  !important;
+        }
+    }
+    .list{
+        margin-bottom: 0px !important;
+        font-size: 1.2rem !important;
+    }
+    .scroll-content{
+        padding-bottom: 0 !important;
+    }
+    ion-item{
+        padding-left: 0  !important;
+    }
+
+}

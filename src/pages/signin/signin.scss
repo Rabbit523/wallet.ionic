@@ -1,0 +1,52 @@
+page-signin {
+  .scroll-content {
+    padding-bottom: 0 !important;
+  }
+  .bg-white {
+    border-bottom: 1px solid #c3c3c3;
+  }
+  .logo {
+    width: 35%;
+    margin: 25% 0;
+  }
+  .text-input {
+    color: #000!important;
+    padding-left: 4px;
+  }
+  ion-segment {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .info-text {
+    height: 4.5rem;
+    font-size: 1.5rem;
+  }
+  .sign-row {
+    margin-bottom: -5px;
+    .segment-button {
+      font-weight: bold;
+      color: #b9b9b9;
+      opacity: 1;
+      font-size: 1.3rem;
+      text-transform: none;
+      border: none;
+      &:after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 4px;
+        border-radius: 5px;
+        position: relative;
+        background: transparent;
+        margin: 0 auto;
+        bottom: 1px;
+      }
+      &.segment-activated {
+        color: #d71e1e;
+        &:after {
+          background: #d71e1e;
+        }
+      }
+    }
+  }
+}

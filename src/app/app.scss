@@ -1,0 +1,79 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+/*font css*/ 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.toolbar-background{
+    background: #fff !important;
+}
+
+
+.form-theme{
+    width: 100%;
+    display: block;
+    .input{
+        background: #eaeaea;
+        border: 0px;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    .text-input{
+        color: #c0c0c0;
+    }
+}
+
+
+.btn-theme-big-red{
+    height: 4.5rem !important;
+    &.button {
+        background-color: #d71e1e;
+        text-transform: none;
+        border-radius: 5px;
+    }
+}
+.btn-theme-big-white{
+    height: 4.5rem !important;
+    &.button {
+        background-color: #fff;
+        color:#d71e1e;
+        text-transform: none;
+        border-radius: 5px;
+    }
+}
+.toolbar-title{
+    font-size: 1.6rem !important;
+}
+.bg-theme{
+    background: #f9f9f9;
+}
+.bg-white{
+    background: #fff;
+}
+.text-red{
+    color:#d71e1e !important;
+}
+.bg-red{
+    background: #d71e1e !important;
+}
+.text-white{
+    color: #fff  !important;
+}

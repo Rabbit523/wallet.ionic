@@ -1,0 +1,95 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>E-Wallet</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding class="bg-theme">
+  <ion-content class="home-bg">
+    <ion-grid col-11 col-sm-10>
+      <ion-row>
+        <ion-col col-12>
+          <img src="assets/Icons/logo.png" alt="logo" class="logo">
+        </ion-col>
+
+        <ion-col col-12>
+          <h1><b>Bal 12.82 USD</b></h1>
+          <p class="sub-text">John Doe</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4>
+          <ion-card>
+            <ion-card-content [navPush]="accountPage">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_about_us.png" alt="icon">
+              <p>Account</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-4>
+          <ion-card>
+            <ion-card-content [navPush]="depositPage">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_availibility.png" alt="icon">
+              <p>Deposit</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-4>
+          <ion-card>
+            <ion-card-content [navPush]="withdrawPage">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_appointment.png" alt="icon">
+              <p>Withdraw</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-4>
+          <ion-card>
+            <ion-card-content [navPush]="sendPage">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_gallery.png" alt="icon">
+              <p>Transfer</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-4>
+          <ion-card>
+            <ion-card-content [navPush]="historyPage">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_testimonials.png" alt="icon">
+              <p>Transactions</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-4>
+          <ion-card>
+            <ion-card-content [navPush]="profilePage">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_about_us.png" alt="icon">
+              <p>Profile</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-4>
+         <ion-card> 
+            <ion-card-content [navPush]="termsPage">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_availibility.png" alt="icon">
+              <p>Terms</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-4>
+          <ion-card>
+            <ion-card-content [navPush]="contactPage">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_contatc_us.png" alt="icon">
+              <p>Contact Us</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-4>
+          <ion-card>
+            <ion-card-content (click)="confirmLogout()">
+              <img src="assets/Icons/drawable-xxxhdpi/ic_blog.png" alt="icon">
+              <p>Sign Out</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-content>
